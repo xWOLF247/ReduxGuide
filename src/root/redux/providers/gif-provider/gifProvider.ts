@@ -2,7 +2,7 @@
 
 import { Gif } from "@/root/types/gifType";
 const apiKey = "GwVQVT8x301MZCjrf720mTLCdeA6XPYx";
-const getGifUrl = (searchTerm: string, limit = 5) =>
+const getGifUrl = (searchTerm: string, limit = 10) =>
 `https://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=${apiKey
 }&limit=${limit}`;
 
